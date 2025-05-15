@@ -1,0 +1,5 @@
+La historia de la inteligencia artificial (IA) es fascinante.
+Comenzó con ideas filosóficas sobre máquinas pensantes.
+Alan Turing fue un pionero clave en este campo.
+Hoy en día, los Modelos de Lenguaje Grandes como GPT están transformando muchas industrias.
+Llama Index ayuda a conectar estos modelos con datos personalizados.

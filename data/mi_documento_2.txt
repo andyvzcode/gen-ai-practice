@@ -1,0 +1,4 @@
+Langchain es otro framework popular para construir aplicaciones con LLMs.
+Ofrece componentes modulares como cadenas, agentes y herramientas de memoria.
+Se puede integrar con Llama Index para flujos de trabajo RAG más complejos.
+Crew AI y LangGraph son herramientas para crear sistemas de agentes multi-colaborativos.
