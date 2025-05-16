@@ -99,10 +99,10 @@ researcher_agent = Agent(
         "experiencias únicas. Tienes una habilidad especial para encontrar información que va más allá de las típicas "
         "guías turísticas. Tu objetivo es proporcionar una lista concisa pero inspiradora de lugares y actividades."
     ),
-    tools=[search_tool],
+    tools=[],  # Sin herramientas
     llm=llm,
-    verbose=True, # Muestra los pensamientos y acciones del agente
-    allow_delegation=False # Para este agente, no permitiremos que delegue tareas
+    verbose=True,
+    allow_delegation=False
 )
 
 # Agente 2: Redactor de Itinerarios
@@ -115,7 +115,7 @@ planner_agent = Agent(
         "itinerarios cautivadores y prácticos. Sabes cómo equilibrar actividades, tiempos de viaje y "
         "descansos para crear una experiencia memorable. Tu itinerario debe ser fácil de seguir e inspirador."
     ),
-    tools=[], # Este agente no necesita herramientas directas, se basará en la información del investigador
+    tools=[],  # Sin herramientas
     llm=llm,
     verbose=True,
     allow_delegation=False
